@@ -16,8 +16,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Coding Test',
-    description: 'Coding test',
+    title: 'Fun88',
+    description: 'Fun 88 coding test',
+    icons: {
+        icon: '/assets/header/fun88.svg',
+    },
 };
 
 export default function RootLayout({
