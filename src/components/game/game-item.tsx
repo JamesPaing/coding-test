@@ -4,7 +4,6 @@ import { Game } from '@/contexts/root-context';
 import { useRootContext } from '@/hooks/user-root-context';
 import Favorite from '../assets/favourite';
 import NonFavorite from '../assets/non-favourite';
-import Image from 'next/image';
 
 interface GameItemProps extends React.HTMLProps<HTMLDivElement> {
     game: Game;
